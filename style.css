@@ -1,0 +1,44 @@
+/* Header Section */
+.header-section{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000;
+}
+/* Hero section */
+.hero-section{
+    background: #000 url(https://www.energy.de/files/styles/header_image_mobile/public/uploads/national/header-image/2023/02/rihannasuperbowl-6353.jpg.webp?itok=yf-kGTlG) no-repeat;
+}
+.hero-text{
+    margin-left: 20%;
+}
+.hero-quote{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Timeline section */
+.wrapper{
+    width: 60%;
+    margin-left: 20%;
+
+}
+.wrapper img{
+    border-radius: 20px;
+    width: 20%;
+    height: 20%;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+    margin-left: 100px;
+}
+ol > li::marker{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+li span:first-of-type {
+	font-size: 1.5em;
+	padding-top: 1rem;
+}
+li span:last-of-type {
+	font-style: italic;
+	padding-bottom: 1rem;
+}
